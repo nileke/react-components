@@ -1,0 +1,32 @@
+import * as React from "react";
+import "./text-box-group-style.scss";
+export interface TextBoxGroupProps {
+    value: string | number;
+    name: string;
+    onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+    onKeyDown?: (event: React.KeyboardEvent<HTMLInputElement>) => void;
+    onKeyUp?: (event: React.KeyboardEvent<HTMLInputElement>) => void;
+    onKeyPress?: (event: React.KeyboardEvent<HTMLInputElement>) => void;
+    onFocus?: (event: React.FocusEvent<HTMLInputElement>) => void;
+    onBlur?: (event: React.FocusEvent<HTMLInputElement>) => void;
+    type?: string;
+    label?: string;
+    error?: string;
+    placeHolder?: string;
+    className?: string;
+    focus?: boolean;
+    readonly?: boolean;
+    disabled?: boolean;
+    max?: number;
+    autoComplete?: boolean;
+    leftText?: string;
+    rightText?: string;
+    leftIcon?: any;
+    rightIcon?: any;
+    rightTitle?: string;
+    leftTitle?: string;
+    onRightClick?: (event: React.MouseEvent<HTMLDivElement>) => void;
+    onLeftClick?: (event: React.MouseEvent<HTMLDivElement>) => void;
+    reference?: React.RefObject<HTMLInputElement>;
+}
+export declare const TextBoxGroup: React.StatelessComponent<TextBoxGroupProps>;
