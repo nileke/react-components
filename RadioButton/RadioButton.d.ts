@@ -14,4 +14,4 @@ export interface RadioButtonProps {
     disabled?: boolean;
     reference?: React.RefObject<any>;
 }
-export declare const RadioButton: React.StatelessComponent<RadioButtonProps>;
+export declare const RadioButton: React.FunctionComponent<RadioButtonProps>;

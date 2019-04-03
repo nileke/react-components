@@ -10,5 +10,5 @@ interface TabsProps {
     onClick?: (index: number) => any;
     className?: string;
 }
-export declare const Tabs: React.StatelessComponent<TabsProps>;
+export declare const Tabs: React.FunctionComponent<TabsProps>;
 export {};

@@ -5,5 +5,5 @@ interface InlineLinkProps {
     className?: string;
     children?: any;
 }
-export declare const InlineLink: React.StatelessComponent<InlineLinkProps>;
+export declare const InlineLink: React.FunctionComponent<InlineLinkProps>;
 export {};

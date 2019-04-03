@@ -10,5 +10,5 @@ interface RatingProps {
     readOnly?: boolean;
     className?: string;
 }
-export declare const Rating: React.StatelessComponent<RatingProps>;
+export declare const Rating: React.FunctionComponent<RatingProps>;
 export {};

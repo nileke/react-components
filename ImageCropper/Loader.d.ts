@@ -5,4 +5,4 @@ export interface LoaderProps {
     fullscreen?: boolean;
     className?: string;
 }
-export declare const Loader: React.StatelessComponent<LoaderProps>;
+export declare const Loader: React.FunctionComponent<LoaderProps>;

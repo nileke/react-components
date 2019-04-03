@@ -10,4 +10,4 @@ export interface ButtonProps {
     icon?: any;
     iconPosition?: string;
 }
-export declare const Button: React.StatelessComponent<ButtonProps>;
+export declare const Button: React.FunctionComponent<ButtonProps>;

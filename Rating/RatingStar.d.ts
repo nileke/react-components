@@ -5,6 +5,6 @@ interface StarProps {
     fill: any;
     title?: any;
 }
-export declare const SVGStarHollow: React.StatelessComponent<StarProps>;
-export declare const SVGStar: React.StatelessComponent<StarProps>;
+export declare const SVGStarHollow: React.FunctionComponent<StarProps>;
+export declare const SVGStar: React.FunctionComponent<StarProps>;
 export {};

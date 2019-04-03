@@ -21,4 +21,4 @@ export interface TextBoxProps {
     autoComplete?: boolean;
     reference?: React.RefObject<HTMLInputElement>;
 }
-export declare const TextBox: React.StatelessComponent<TextBoxProps>;
+export declare const TextBox: React.FunctionComponent<TextBoxProps>;

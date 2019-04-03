@@ -18,4 +18,4 @@ export interface RadioGroupProps {
     inline?: boolean;
     disableAll?: boolean;
 }
-export declare const RadioGroup: React.StatelessComponent<RadioGroupProps>;
+export declare const RadioGroup: React.FunctionComponent<RadioGroupProps>;

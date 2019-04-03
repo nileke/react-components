@@ -5,5 +5,5 @@ interface BreadcrumbProps {
     onClick?: (i: number) => void;
     className?: string;
 }
-export declare const Breadcrumb: React.StatelessComponent<BreadcrumbProps>;
+export declare const Breadcrumb: React.FunctionComponent<BreadcrumbProps>;
 export {};

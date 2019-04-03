@@ -9,4 +9,4 @@ export interface ImageProps {
     className?: string;
     useImgTag?: boolean;
 }
-export declare const Image: React.StatelessComponent<ImageProps>;
+export declare const Image: React.FunctionComponent<ImageProps>;

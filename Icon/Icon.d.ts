@@ -7,4 +7,4 @@ export interface IconProps {
     size?: number;
     onClick?: (event: any) => void;
 }
-export declare const Icon: React.StatelessComponent<IconProps>;
+export declare const Icon: React.FunctionComponent<IconProps>;

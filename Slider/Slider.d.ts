@@ -22,4 +22,4 @@ export interface SliderProps {
     error?: string;
     reference?: React.RefObject<any>;
 }
-export declare const Slider: React.StatelessComponent<SliderProps>;
+export declare const Slider: React.FunctionComponent<SliderProps>;

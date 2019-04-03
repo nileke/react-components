@@ -16,5 +16,5 @@ interface CarouselProps {
     carouselChanged?: (index: number) => void;
     className?: string;
 }
-export declare const Carousel: React.StatelessComponent<CarouselProps>;
+export declare const Carousel: React.FunctionComponent<CarouselProps>;
 export {};

@@ -11,5 +11,5 @@ interface TimelineProps {
     onClick?: (index: number) => void;
     className?: string;
 }
-export declare const Timeline: React.StatelessComponent<TimelineProps>;
+export declare const Timeline: React.FunctionComponent<TimelineProps>;
 export {};

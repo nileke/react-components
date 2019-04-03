@@ -8,4 +8,4 @@ export interface ToggleProps {
     className?: string;
     reference?: React.RefObject<any>;
 }
-export declare const Toggle: React.StatelessComponent<ToggleProps>;
+export declare const Toggle: React.FunctionComponent<ToggleProps>;

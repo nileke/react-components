@@ -29,4 +29,4 @@ export interface TextBoxGroupProps {
     onLeftClick?: (event: React.MouseEvent<HTMLDivElement>) => void;
     reference?: React.RefObject<HTMLInputElement>;
 }
-export declare const TextBoxGroup: React.StatelessComponent<TextBoxGroupProps>;
+export declare const TextBoxGroup: React.FunctionComponent<TextBoxGroupProps>;

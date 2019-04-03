@@ -13,4 +13,4 @@ export interface CheckBoxProps {
     error?: string;
     reference?: React.RefObject<any>;
 }
-export declare const CheckBox: React.StatelessComponent<CheckBoxProps>;
+export declare const CheckBox: React.FunctionComponent<CheckBoxProps>;

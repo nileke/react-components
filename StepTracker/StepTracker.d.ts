@@ -9,4 +9,4 @@ export interface StepTrackerProps {
     useNumbers?: boolean;
     orientation?: string;
 }
-export declare const StepTracker: React.StatelessComponent<StepTrackerProps>;
+export declare const StepTracker: React.FunctionComponent<StepTrackerProps>;

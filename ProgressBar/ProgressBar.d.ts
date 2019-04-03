@@ -5,4 +5,4 @@ export interface ProgressBarProps {
     showProgress?: boolean;
     className?: string;
 }
-export declare const ProgressBar: React.StatelessComponent<ProgressBarProps>;
+export declare const ProgressBar: React.FunctionComponent<ProgressBarProps>;

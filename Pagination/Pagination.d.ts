@@ -14,4 +14,4 @@ export interface PaginationProps {
     useDotNav?: boolean;
     onChange?: (value: number) => void;
 }
-export declare const Pagination: React.StatelessComponent<PaginationProps>;
+export declare const Pagination: React.FunctionComponent<PaginationProps>;

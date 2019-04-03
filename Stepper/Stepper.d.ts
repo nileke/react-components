@@ -14,4 +14,4 @@ export interface StepperProps {
     warning?: string;
     reference?: React.RefObject<any>;
 }
-export declare const Stepper: React.StatelessComponent<StepperProps>;
+export declare const Stepper: React.FunctionComponent<StepperProps>;

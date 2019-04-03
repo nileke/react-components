@@ -13,4 +13,4 @@ export interface VideoProps {
     showInfo?: boolean;
     allowFullScreen?: boolean;
 }
-export declare const Video: React.StatelessComponent<VideoProps>;
+export declare const Video: React.FunctionComponent<VideoProps>;

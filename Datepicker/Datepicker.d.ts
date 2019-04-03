@@ -13,4 +13,4 @@ export interface DatepickerProps {
     maxDate?: Date;
     locale?: string;
 }
-export declare const Datepicker: React.StatelessComponent<DatepickerProps>;
+export declare const Datepicker: React.FunctionComponent<DatepickerProps>;

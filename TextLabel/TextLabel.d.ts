@@ -6,4 +6,4 @@ export interface TextLabelProps {
     label?: string;
     className?: string;
 }
-export declare const TextLabel: React.StatelessComponent<TextLabelProps>;
+export declare const TextLabel: React.FunctionComponent<TextLabelProps>;

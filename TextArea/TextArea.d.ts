@@ -22,4 +22,4 @@ export interface TextAreaProps {
     max?: number;
     reference?: React.RefObject<HTMLTextAreaElement>;
 }
-export declare const TextArea: React.StatelessComponent<TextAreaProps>;
+export declare const TextArea: React.FunctionComponent<TextAreaProps>;

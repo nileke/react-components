@@ -19,4 +19,4 @@ export interface DropDownProps {
     clearable?: boolean;
     disabled?: boolean;
 }
-export declare const DropDown: React.StatelessComponent<DropDownProps>;
+export declare const DropDown: React.FunctionComponent<DropDownProps>;
