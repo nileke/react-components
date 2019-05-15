@@ -8,4 +8,8 @@ export interface ChartProps {
     className?: string;
     onClick?: (event: any) => void;
 }
-export declare const Chart: React.FunctionComponent<ChartProps>;
+export declare class Chart extends React.Component<ChartProps, any> {
+    constructor(props: any);
+    renderChart(type: string): JSX.Element;
+    render(): JSX.Element;
+}
