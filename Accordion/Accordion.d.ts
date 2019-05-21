@@ -6,6 +6,7 @@ export interface AccordionText {
 }
 export interface AccrodionListItem {
     category: string;
+    subHeaderText?: string;
     text?: AccordionText | Array<AccordionText>;
 }
 interface AccordionProps {
